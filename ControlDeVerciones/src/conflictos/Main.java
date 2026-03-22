@@ -6,6 +6,8 @@ public class Main {
 		Billetera miBilletera=new Billetera(100.0, "Juan Perez");
 		miBilletera.mostrarSaldo();
 		miBilletera.transferir(20.0);
+		miBilletera.transferir(25.0);
+		miBilletera.transferir(30.0);
 		miBilletera.mostrarSaldo();
 
 	}
