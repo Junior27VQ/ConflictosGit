@@ -3,6 +3,7 @@ package conflictos;
 public class Billetera {
 	double balanceTotal;
 	String titular;
+	String moneda="USD";
 	public Billetera(double balanceTotal, String titular) {
 		super();
 		this.balanceTotal = balanceTotal;
