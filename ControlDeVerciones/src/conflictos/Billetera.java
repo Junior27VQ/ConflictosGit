@@ -1,3 +1,4 @@
+//Git knkdk
 package conflictos;
 
 public class Billetera {
@@ -16,4 +17,4 @@ public class Billetera {
 	public void mostrarSaldo() {
 		System.out.println("Saldo de"+titular+":$"+balanceTotal);
 	}
-}
+}  
