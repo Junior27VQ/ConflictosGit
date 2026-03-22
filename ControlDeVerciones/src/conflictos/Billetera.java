@@ -1,18 +1,18 @@
 package conflictos;
 
 public class Billetera {
-	double saldo;
+	double balanceTotal;
 	String titular;
-	public Billetera(double saldo, String titular) {
+	public Billetera(double balanceTotal, String titular) {
 		super();
-		this.saldo = saldo;
+		this.balanceTotal = balanceTotal;
 		this.titular = titular;
 	}
 	public void transferir(double monto) {
-		saldo=saldo-monto;
+		balanceTotal=balanceTotal-monto;
 	}
 	public void mostrarSaldo() {
-		System.out.println("Saldo de"+titular+":$"+saldo);
+		System.out.println("Saldo de"+titular+":$"+balanceTotal);
 	}
 
 }
