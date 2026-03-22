@@ -10,6 +10,10 @@ public class Billetera {
 		this.titular = titular;
 	}
 	public void transferir(double monto) {
+		if(monto>balanceTotal){
+			System.out.println("fondo insuficiente");
+			return ;
+		}
 		balanceTotal=balanceTotal-monto;
 	}
 	public void mostrarSaldo() {
