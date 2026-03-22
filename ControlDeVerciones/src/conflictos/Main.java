@@ -14,7 +14,11 @@ public class Main {
 
         miBilletera.transferir(monto);
 		miBilletera.mostrarSaldo();
+
 		miBilletera.transferir(20.0);
+		miBilletera.transferir(25.0);
+		miBilletera.transferir(30.0);
+
 		miBilletera.mostrarSaldo();
 
 		scanner.close();
