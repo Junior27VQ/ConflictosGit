@@ -3,6 +3,7 @@ package conflictos;
 public class Billetera {
 	double balanceTotal;
 	String titular;
+	boolean cuentaActiva=true;
 	public Billetera(double balanceTotal, String titular) {
 		super();
 		this.balanceTotal = balanceTotal;
