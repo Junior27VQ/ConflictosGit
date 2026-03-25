@@ -19,6 +19,7 @@ public class BilleteraVirtual {
 			return;
 		}
 		balanceTotal=balanceTotal-(monto*1.05);
+		System.out.println("Transferencia exitosa de: $"+monto);
 	}
 	public void mostrarSaldo() {
 		System.out.println("Saldo de"+titular+":$"+balanceTotal);
