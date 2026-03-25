@@ -7,7 +7,7 @@ public class BilleteraVirtual {
 	String moneda = "USD";
 	boolean cuentaActiva=true;
 
-	public Billetera(double balanceTotal, String titular) {
+	public BilleteraVirtual(double balanceTotal, String titular) {
 		super();
 		this.balanceTotal = balanceTotal;
 		this.titular = titular;
