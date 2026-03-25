@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"name": "prueba1-jjb",
+			"path": "../../../../prueba1-jjb"
+		},
+		{
+			"name": "ConflictosGit",
+			"path": "../../.."
+		},
+		{
+			"name": "prueba2",
+			"path": "../../../../prueba2"
+		}
+	],
+	"settings": {}
+}
