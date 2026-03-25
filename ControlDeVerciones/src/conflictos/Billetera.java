@@ -1,7 +1,7 @@
 //Git knkdk
 package conflictos;
 
-public class Billetera {
+public class BilleteraVirtual {
 	double balanceTotal;
 	String titular;
 	String moneda = "USD";
