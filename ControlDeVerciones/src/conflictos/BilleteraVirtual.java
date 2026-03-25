@@ -13,6 +13,7 @@ public class BilleteraVirtual {
 		this.titular = titular;
 	}
 	public void transferir(double monto) {
+		System.out.println("Iniciando transacción...");
 		if (monto>balanceTotal){
 			System.out.println("Saldo de"+titular+":$"+balanceTotal);
 			return;
