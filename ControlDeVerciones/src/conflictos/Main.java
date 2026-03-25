@@ -6,7 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Billetera miBilletera = new Billetera(100.0, "Juan Perez");
+        BilleteraVirtual miBilletera = new BilleteraVirtual(100.0, "Juan Perez");
+		BilleteraVirtual miBilletera2 = new BilleteraVirtual(500.0, "Maria Lopez");
 
         System.out.print("¿Cuánto desea transferir? ");
         double monto = scanner.nextDouble();
@@ -20,6 +21,7 @@ public class Main {
 		miBilletera.transferir(30.0);
 
 		miBilletera.mostrarSaldo();
+		miBilletera2.mostrarSaldo();
 
 		scanner.close();
 	}
