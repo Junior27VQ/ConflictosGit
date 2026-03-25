@@ -5,7 +5,7 @@ public class Billetera {
 	double balanceTotal;
 	String titular;
 	String moneda = "USD";
-	
+	boolean cuentaActiva=true;
 
 	public Billetera(double balanceTotal, String titular) {
 		super();
