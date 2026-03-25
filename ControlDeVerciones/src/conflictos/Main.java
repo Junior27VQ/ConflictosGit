@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+
+		System.out.print("=== BIENVENIDO AL SISTEMA BANCARIO ===");
         Scanner scanner = new Scanner(System.in);
         Billetera miBilletera = new Billetera(100.0, "Juan Perez");
 
