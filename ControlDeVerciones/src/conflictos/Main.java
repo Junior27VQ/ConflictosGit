@@ -24,7 +24,7 @@ public class Main {
 
 		miBilletera.mostrarSaldo();
 		miBilletera2.mostrarSaldo();
-
+ 
 		scanner.close();
 	}
 }
